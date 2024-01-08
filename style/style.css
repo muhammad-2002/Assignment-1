@@ -9,19 +9,19 @@
   width: 78%;
   margin: 0 auto;
 }
-.gap {
-  margin-bottom: 20px;
+.gap * {
+  margin-bottom: 15px;
 }
 span {
   color: red;
 }
 p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
+  font-weight: 500;
+  line-height: 32px;
 }
 .btn {
   border: none;
@@ -32,12 +32,9 @@ p {
   color: #fff;
 }
 .btn:hover {
-  background-color: burlywood;
+  background: burlywood;
   color: black;
 }
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
-/* share style all file End */
 
 /* header section start */
 .header {
@@ -139,6 +136,22 @@ font-family: 'Merriweather', serif; */
   height: 465px;
   padding: 50px;
 }
+.welcome-container .welcome-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.welcome-container .welcome-content .btn {
+  background-color: bisque;
+  color: #070211;
+}
+.welcome-container .welcome-content .btn:hover {
+  background: burlywood;
+  color: black;
+}
 /* welcome section start */
 
 /* join section start */
@@ -150,6 +163,7 @@ font-family: 'Merriweather', serif; */
     rgba(255, 0, 0, 0) 100%
   );
   padding: 78px;
+  border-radius: 8px;
 }
 .join .join-contents h2 {
   color: #070211;
@@ -218,3 +232,195 @@ font-family: 'Merriweather', serif; */
   width: 215px;
 }
 /* best-offer End hear */
+
+/* holiday section start */
+.holydays {
+  margin: 100px auto;
+}
+.holydays-heading {
+  text-align: center;
+  width: 833px;
+  margin: 0 auto;
+}
+.holydays-heading h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holydays-heading h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.Holidays-discount {
+  background-image: url("../images/Rectangle\ 2.png"),
+    url("../images/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%, 334px;
+  background-position: bottom left, top right;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 100px;
+}
+.Holidays-discount .img-1 img {
+  width: 452px;
+  margin: 100px 0 0 -50px;
+}
+.Holidays-discount .img-2 {
+  height: 500px;
+}
+
+.Holidays-discount .img-2 img {
+  margin-left: -300px;
+  margin-top: 100px;
+  width: 200px;
+}
+/* holiday section End */
+
+/* best gift section start */
+.best-gift-heading {
+  width: 700px;
+  margin-bottom: 30px;
+}
+.best-gift-heading h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.best-gift-heading h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.best-gift-contents-1,
+.best-gift-contents-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.best-gift-contents-1 {
+  margin-bottom: 20px;
+}
+
+.best-gift-container .best-gift-content img {
+  width: 100%;
+}
+.best-gift-container .best-gift-content img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  opacity: 0.9;
+}
+/* best gift section End */
+
+/* subscrive section start */
+.subscribe {
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 13px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 62px 165px;
+}
+.subscribe .subscribe-heading {
+  margin-bottom: 20px;
+}
+.subscribe .subscribe-heading img {
+  width: 117px;
+  margin-bottom: 10px;
+}
+.subscribe .subscribe-heading h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.subscribe-input {
+  width: 500px;
+  height: 50px;
+  background: #fff;
+  border-radius: 5% 5% 5% 5%/50% 50% 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 5px 20px;
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+.subscribe-input input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.notification {
+  width: 120px;
+  height: 50px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  text-decoration: none;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+/* subscrive section end */
+
+/* footer section start */
+.footer {
+  background: #070211;
+  padding: 94px 0px;
+}
+
+.footer-container .content-section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer-container p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px; /* 166.667% */
+}
+.footer-container .left-side {
+  width: 292px;
+}
+.footer-container .content-section-2 {
+  text-align: center;
+  padding: 40px 0;
+}
+.footer-container .content-section-2 img {
+  margin-right: 30px;
+  width: 6%;
+}
+.footer-container .content-section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+/* footer section End */
