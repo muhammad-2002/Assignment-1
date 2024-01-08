@@ -262,6 +262,7 @@ p {
   background-image: url("../images/Rectangle\ 2.png"),
     url("../images/Rectangle\ 1.png");
   background-repeat: no-repeat;
+
   background-size: 100%, 334px;
   background-position: bottom left, top right;
   display: flex;
@@ -270,16 +271,19 @@ p {
   margin-top: 20px;
   gap: 100px;
 }
+.Holidays-discount .img-1 {
+  width: 50%;
+}
 .Holidays-discount .img-1 img {
-  width: 452px;
-  margin: 100px 0 0 -50px;
+  width: 572px;
+  margin: 10px 0 0 -30px;
 }
 .Holidays-discount .img-2 {
   height: 500px;
 }
 
 .Holidays-discount .img-2 img {
-  margin-left: -300px;
+  margin-left: -340px;
   margin-top: 100px;
   width: 200px;
 }
