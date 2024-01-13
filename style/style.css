@@ -428,3 +428,109 @@ p {
   margin: 40px 0;
 }
 /* footer section End */
+
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .header-content .contents {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .header-content .contents h3 {
+    font-size: 20px;
+  }
+  .header-content .contents h1 {
+    font-size: 30px;
+    margin-top: -5px;
+    line-height: 50px;
+  }
+  .gap * {
+    margin-bottom: 0px;
+  }
+  .welcome-container .welcome-content {
+    width: 68%;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+  }
+  .welcome-container .welcome-img {
+    width: 30%;
+  }
+  .welcome-container .welcome-img img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .welcome-container .welcome-content h1 {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 3px;
+  }
+  .welcome-container .welcome-content p {
+    font-size: 10px;
+    margin-top: -15px;
+    line-height: 15px;
+    margin-bottom: 0px;
+  }
+
+  .welcome-container .welcome-content .btn {
+    background: none;
+    color: #fff;
+    position: absolute;
+    font-size: 10px;
+    top: 132px;
+    left: -10px;
+  }
+
+  .best-offer-container .best-offer-content-2 img {
+    width: 65%;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .best-offer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .holydays-heading {
+    width: 100%;
+  }
+  .Holidays-discount .img-1 img {
+    width: 100%;
+  }
+  .Holidays-discount .img-2 {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .Holidays-discount {
+    background-size: 100%, 50%;
+    margin-top: 0px;
+    background-position: right left;
+  }
+  .Holidays-discount .img-1 {
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+  .Holidays-discount .img-1 {
+    width: 50%;
+  }
+}
+
+.best-gift-heading {
+  width: 100%;
+}
+.container {
+  padding: 10px;
+}
+.subscribe-input {
+  width: 100%;
+}
+.footer-container .content-section-1 {
+  flex-direction: column;
+  gap: 20px;
+}
+/* responsive for desktop */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+}
