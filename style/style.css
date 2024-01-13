@@ -427,6 +427,9 @@ p {
   justify-content: space-between;
   margin: 40px 0;
 }
+.footer-container .content-section-1 {
+  flex-direction: row;
+}
 /* footer section End */
 
 /* responsive for mobile */
@@ -444,7 +447,7 @@ p {
   .header-content .contents h1 {
     font-size: 30px;
     margin-top: -5px;
-    line-height: 50px;
+    line-height: 40px;
   }
   .gap * {
     margin-bottom: 0px;
@@ -471,7 +474,8 @@ p {
   .welcome-container .welcome-content p {
     font-size: 10px;
     margin-top: -15px;
-    line-height: 15px;
+    line-height: 10px;
+    letter-spacing: 0px;
     margin-bottom: 0px;
   }
 
@@ -480,8 +484,11 @@ p {
     color: #fff;
     position: absolute;
     font-size: 10px;
-    top: 132px;
+    top: 110px;
     left: -10px;
+  }
+  .join .join-contents h2 {
+    font-size: 20px;
   }
 
   .best-offer-container .best-offer-content-2 img {
@@ -516,21 +523,163 @@ p {
   .Holidays-discount .img-1 {
     width: 50%;
   }
+  .best-gift-heading {
+    width: 100%;
+  }
+
+  .subscribe-input {
+    width: 100%;
+  }
+  .footer-container .content-section-1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .Holidays-discount {
+    background-position: bottom, top right;
+    background-size: 100%, 100%;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+  }
+  .Holidays-discount .img-1 img {
+    display: none;
+  }
+  .Holidays-discount .img-2 {
+    width: 100%;
+    position: relative;
+    left: 120px;
+    top: -70px;
+  }
 }
 
-.best-gift-heading {
-  width: 100%;
-}
-.container {
-  padding: 10px;
-}
-.subscribe-input {
-  width: 100%;
-}
-.footer-container .content-section-1 {
-  flex-direction: column;
-  gap: 20px;
-}
 /* responsive for desktop */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    max-width: 1020px;
+    width: 90%;
+  }
+  .header-content .contents h3 {
+    font-size: 20px;
+    margin-top: -50px;
+  }
+  .header-content .contents h1 {
+    font-size: 45px;
+    line-height: 50px;
+    width: 300px;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+  }
+
+  .welcome-container .welcome-content {
+    width: 68%;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+  }
+  .welcome-container .welcome-img {
+    width: 100%;
+  }
+  .welcome-container .welcome-img img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .welcome-container .welcome-content h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+  .welcome-container .welcome-content p {
+    font-size: 16px;
+    margin-top: -15px;
+    line-height: 20px;
+
+    margin-bottom: 0px;
+  }
+
+  .welcome-container .welcome-content .btn {
+    background: none;
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: 195px;
+    left: -10px;
+  }
+  .best-offer-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .best-offer-container p {
+    width: 100%;
+  }
+  .best-offer-container .best-offer-content-3 p {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .best-offer-content-3 h1 {
+    text-align: center;
+  }
+  .best-offer-content-3 {
+    text-align: center;
+  }
+  .footer-container .content-section-1 {
+    flex-direction: row;
+  }
+  .holydays-heading {
+    width: 100%;
+  }
+  .best-gift-heading {
+    width: 100%;
+  }
+  .welcome-container .welcome-img {
+    width: 40%;
+  }
+  .welcome-container .welcome-img img {
+    width: 80%;
+  }
+  .subscribe {
+    padding: 30px;
+  }
+  .Holidays-discount .img-1 {
+    width: 60%;
+    margin-right: -26px;
+
+    padding: 0px 0px;
+  }
+
+  .Holidays-discount .img-1 img {
+    width: 440px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .Holidays-discount .img-2 {
+    height: 0;
+    width: 20%;
+
+    position: relative;
+    top: -150px;
+    right: 160px;
+  }
+  .Holidays-discount .img-2 img {
+    width: 140%;
+    margin: 0;
+    padding: 0;
+  }
+  .Holidays-discount {
+    background-position: bottom, top right;
+    background-size: 1000px, 230px;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+  }
 }
