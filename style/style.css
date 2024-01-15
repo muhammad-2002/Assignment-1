@@ -437,6 +437,7 @@ p {
   .container {
     width: 95%;
   }
+
   .header-content .contents {
     width: 100%;
     padding: 30px 0;
@@ -501,18 +502,20 @@ p {
     justify-content: center;
     align-items: center;
   }
+  .holydays {
+    width: 100%;
+  }
   .holydays-heading {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 30px;
   }
-  .Holidays-discount .img-1 img {
-    width: 100%;
-  }
+
   .Holidays-discount .img-2 {
     margin-left: 0;
     margin-bottom: 0;
   }
   .Holidays-discount {
-    background-size: 100%, 50%;
+    background-size: 50%, 20%;
     margin-top: 0px;
     background-position: right left;
   }
@@ -528,15 +531,14 @@ p {
   }
 
   .subscribe-input {
-    width: 100%;
+    width: 95%;
   }
   .footer-container .content-section-1 {
     flex-direction: column;
-    gap: 20px;
   }
-  .container {
+  /* .container {
     padding: 10px;
-  }
+  } */
   .Holidays-discount {
     background-position: bottom, top right;
     background-size: 100%, 100%;
@@ -544,16 +546,17 @@ p {
     height: 400px;
     justify-content: center;
     align-items: center;
-    background-attachment: scroll;
   }
   .Holidays-discount .img-1 img {
     display: none;
   }
   .Holidays-discount .img-2 {
-    width: 100%;
-    position: relative;
-    left: 120px;
-    top: -70px;
+    width: 50%;
+    margin-left: 160px;
+    margin-top: -100px;
+  }
+  .subscribe {
+    padding: 10px;
   }
 }
 
